@@ -14,3 +14,5 @@ GET         /swagger.yaml                                   controllers.Assets.a
 GET         /swagger-doc                                    controllers.swagger.SwaggerController.swaggerDoc
 
 GET         /swagger-ui                                     controllers.swagger.SwaggerController.swaggerUI
+
+GET         /connections/:connectionId/overview     controllers.ConnectionController.getConnection(connectionId)
