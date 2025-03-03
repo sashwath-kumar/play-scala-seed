@@ -3,6 +3,8 @@ info:
   title: Connection-Manager
   description: API to getting the connection detail using connection Id.
   version: "0.0.1"
+servers:
+  - url: https://sashwath-kumar.github.io
 paths:
   /connections/{connectionId}/overview:
     get:
